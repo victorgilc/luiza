@@ -15,7 +15,7 @@ Instale o Maven para resolução das dependências
 URL para acesso ao único endpoint: <b> http://localhost:8080/produtoEndpoint/trataItensSemelhantes </b>
 <br/>
 
-<b>Atenção!</b>
+<b>Atenção:</b>
 <br/>
 Esse endpoint deve ser acessado através de uma requisição POST, é recomendado utilizar o "app" do Google Chrome <b>POSTMAN</b>
 
