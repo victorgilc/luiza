@@ -13,7 +13,7 @@ Instale o Maven para resolução das dependências
 
 <br/>
 URL para acesso ao único endpoint: <b> http://localhost:8080/produtoEndpoint/trataItensSemelhantes </b>
-<br/>
+<br/><br/>
 
 <b>Atenção:</b>
 <br/>
