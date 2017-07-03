@@ -14,7 +14,7 @@ Instale o Maven para resolução das dependências
 <br/><br/>
 URL para acesso ao único endpoint: <b> http://localhost:8080/produtoEndpoint/trataItensSemelhantes </b>
 
-Observações:
+<b>Observações:</b>
 
 Para o agrupamento de Strings, foi usada a "definição de Levenshtein" que é um algoritmo que calcula a distância/semelhança entre 2 Strings e, baseado nisso, foi colocado uma margem de 20%  de tolerância da não semelhança(essa sensibilidade poderia estar em um .properties, fica como sugestão de melhoria).
 
