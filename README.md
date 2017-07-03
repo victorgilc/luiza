@@ -17,7 +17,7 @@ URL para acesso ao único endpoint: <b> http://localhost:8080/produtoEndpoint/tr
 
 <b>Atenção:</b>
 <br/>
-Esse endpoint deve ser acessado através de uma requisição POST, é recomendado utilizar o "app" do Google Chrome <b>POSTMAN</b>
+-Esse endpoint deve ser acessado através de uma requisição POST, é recomendado utilizar o "app" do Google Chrome <b>Postman</b>
 
 <br/>
 
