@@ -11,7 +11,7 @@ Instale o Loombok para gerar Getters/Setters!
 <br/>
 Instale o Maven para resolução das dependências
 
-<br/><br/>
+<br/>
 URL para acesso ao único endpoint: <b> http://localhost:8080/produtoEndpoint/trataItensSemelhantes </b>
 <br/>
 
@@ -19,7 +19,7 @@ URL para acesso ao único endpoint: <b> http://localhost:8080/produtoEndpoint/tr
 <br/>
 Esse endpoint deve ser acessado através de uma requisição POST, é recomendado utilizar o "app" do Google Chrome <b>POSTMAN</b>
 
-<br/><br/>
+<br/>
 
 <b>Observações:</b>
 <br/>
