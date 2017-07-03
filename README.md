@@ -19,8 +19,10 @@ URL para acesso ao único endpoint: <b> http://localhost:8080/produtoEndpoint/tr
 <br/>
 Esse endpoint deve ser acessado através de uma requisição POST, é recomendado utilizar o "app" do Google Chrome <b>POSTMAN</b>
 
-<b>Observações:</b>
+<br/><br/>
 
+<b>Observações:</b>
+<br/>
 -Refente ao item: "Disponibilizar	um jar para	que	sua	aplicação	seja	executada	via	terminal":
 O comando "mvn clean package" gera o arquivo ".war" dentro do diretório "target" do projeto.
 
