@@ -3,7 +3,7 @@ package br.com.luiza.util;
 public class Levenshtein {
 	 
 	/**
-	 * Algoritmo baseado na definiÁ„o de Levenshtein, calculando a dist‚ncia entre 2 Strings
+	 * Algoritmo baseado na defini√ß√£o de Levenshtein, calculando a dist√¢ncia entre 2 Strings
 	 * @param a
 	 * @param b
 	 * @return distance
@@ -29,11 +29,11 @@ public class Levenshtein {
     }
     
     /**
-     * Verifica se a dist‚ncia entre 2 String È aceit·vel, diante de uma porcentagem determinada
+     * Verifica se a dist√¢ncia entre 2 String √© aceit√°vel, diante de uma porcentagem determinada
      * @param source
      * @param toCompare
      * @param acceptableDistancePercentage
-     * @return È aceit·vel ou n„o
+     * @return √â aceit√°vel ou n√£o
      */
     public static boolean isDistanceAcceptable(String source, String toCompare, int acceptableDistancePercentage) {
     	

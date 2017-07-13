@@ -17,14 +17,14 @@ import br.com.luiza.enums.Order;
 import br.com.luiza.util.Levenshtein;
 
 /**
- * Classe que possui as regras de negÛcio da entidade {@link Produto}
+ * Classe que possui as regras de neg√≥cio da entidade {@link Produto}
  *
  */
 public class ProdutoBoImpl implements ProdutoBo{
 	
 	
 	/**
-	 * Faz um cast para os tipos que possuÌmos no Produto, a fim de comparar um valor genÈrico no equals
+	 * Faz um cast para os tipos que possu√≠mos no Produto, a fim de comparar um valor gen√©rico no equals
 	 * @param myClass
 	 * @param valor
 	 * @return O valor com o cast
@@ -137,7 +137,7 @@ public class ProdutoBoImpl implements ProdutoBo{
 							
 							if(currentGroup.getValue()!=null &&  f.get(p)!=null)
 							{
-								//aplicamos a definiÁ„o de Levenshtein
+								//aplicamos a defini√ß√£o de Levenshtein
 								if(f.getName()!=ID && f.getType().equals(String.class))
 								{
 									
@@ -146,7 +146,7 @@ public class ProdutoBoImpl implements ProdutoBo{
 									
 										toCompare = value.toString();
 									
-									//N„o est· no agrupamento
+									//N√£o est√° no agrupamento
 									if(!Levenshtein.isDistanceAcceptable(source, toCompare, ACCEPTABLE_STRING_PERCENTAGE_DISTANCE))
 									{
 										pertenceGrupo = false;
@@ -180,7 +180,7 @@ public class ProdutoBoImpl implements ProdutoBo{
 	
 
 	/**
-	 * OrdenaÁ„o da lista agrupada de produtos	
+	 * Ordena√ß√£o da lista agrupada de produtos	
 	 * @param groupedProducts
 	 * @param orderBy
 	 */

@@ -16,7 +16,7 @@ import br.com.luiza.enums.Order;
 import junit.framework.Assert;
 
 /**
- * Classe respons·vel pelos testes unit·rios de {@link ProdutoBoImpl}
+ * Classe respons√°vel pelos testes unit√°rios de {@link ProdutoBoImpl}
  *
  */
 public class ProdutoBoUnitTest {
@@ -38,7 +38,7 @@ public class ProdutoBoUnitTest {
 	private final static Double ANOTHER_PRICE = 14D;
 	
 	/**
-	 * Teste com as definiÁıes padrıes de filtro, ordenaÁ„o e agrupamento
+	 * Teste com as defini√ß√µees padr√µees de filtro, ordena√ß√£o e agrupamento
 	 */
 	@Test
 	public void trataItensSemelhantesDefaultsTest()
@@ -66,7 +66,7 @@ public class ProdutoBoUnitTest {
 	}
 	
 	/**
-	 * Teste filtro, ordenaÁ„o e agrupamento sendo informadas
+	 * Teste filtro, ordena√ß√£o e agrupamento sendo informadas
 	 */
 	@Test
 	public void trataItensSemelhantesTest()
@@ -93,13 +93,13 @@ public class ProdutoBoUnitTest {
 			{
 				Assert.assertTrue(entry.getValue().size()==3);
 				
-				//O menor preÁo no primeiro Ìndice, obedecendo a ordenaÁ„o!
+				//O menor pre√ßo no primeiro √≠ndice, obedecendo a ordena√ß√£o!
 				Assert.assertTrue(entry.getValue().get(0).getPrice().equals(ANOTHER_PRICE));
 			}
 			
 			for(Produto p:entry.getValue())
 			{
-				//Todos os produtos tem o mesmo preÁo, obedecendo o filtro
+				//Todos os produtos tem o mesmo pre√ßo, obedecendo o filtro
 				Assert.assertTrue(p.getPrice().equals(PRICE_VALUE));
 			}
 		}
@@ -113,55 +113,55 @@ public class ProdutoBoUnitTest {
 		entrada = new ProdutoEntrada();
 		List<Produto> produtoList = new ArrayList<>();
 		Produto p = new Produto();
-		p.setId(1L);
+		p.setId("a1");
 		p.setBrand("a123");
 		p.setStock(15L);
 		p.setPrice(14D);
 		produtoList.add(new Produto(p));
 		
-		p.setId(11L);
+		p.setId("a11");
 		p.setBrand("a123");
 		p.setStock(15L);
 		p.setPrice(15D);
 		produtoList.add(new Produto(p));
 		
-		p.setId(2L);
+		p.setId("b2");
 		p.setBrand("z123");
 		p.setStock(10L);
 		p.setPrice(25D);
 		produtoList.add(new Produto(p));
 		
-		p.setId(4L);
+		p.setId("c3");
 		p.setBrand("s123");
 		p.setStock(16L);
 		p.setPrice(15D);
 		produtoList.add(new Produto(p));
 		
-		p.setId(5L);
+		p.setId("c4");
 		p.setBrand("g123");
 		p.setStock(15L);
 		p.setPrice(15D);
 		produtoList.add(new Produto(p));
 		
-		p.setId(5L);
+		p.setId("c5");
 		p.setBrand("a123");
 		p.setStock(15L);
 		p.setPrice(15D);
 		produtoList.add(new Produto(p));
 		
-		p.setId(6L);
+		p.setId("d1");
 		p.setBrand("u123");
 		p.setStock(10L);
 		p.setPrice(15D);
 		produtoList.add(new Produto(p));
 		
-		p.setId(7L);
+		p.setId("7L");
 		p.setBrand("a123");
 		p.setStock(130L);
 		p.setPrice(15D);
 		produtoList.add(new Produto(p));
 		
-		p.setId(8L);
+		p.setId("8L");
 		p.setBrand("t123");
 		p.setStock(10L);
 		p.setPrice(15D);
